@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+h1{
+    text-align: center;
+}
+body {
+    background-color: lightblue;
+}
+input{
+    width:90%;
+    margin:3px 40px;
+    border-radius:5px;
+    border: 2px solid #000000;
+    padding: 10px;
+}
+label{
+    font-weight:bold;
+}
+.center{
+    width:60%;
+    margin:auto;
+    border: 2px solid #000000;
+    padding: 10px;
+}
+#main{
+    margin:auto;
+}
+</style>
+</head>
+<body>
+<div id="main">
+<div class="center">
+<h1>註冊</h1>
+<form>
+    <input type="text" placeholder="姓名">
+    <br>
+    <input type="text" placeholder="帳號">
+    <br>
+    <input type="password" placeholder="密碼">
+    <br>
+    <input type="email" placeholder="信箱">
+    <br>
+    <input type="tel" pattern="[0-9]{4}-[0-9]{3}-[0-9]{3}" placeholder="電話號碼 例:xxxx-xxx-xxx">
+    <br>
+    <input type="date">
+    <br><br>
+    <label for="gender" style="margin:3px 0px 3px 40px;">性別：</label>
+    <select id="gender" name="gender">
+        <option value="男生">男生</option>
+        <option value="女生">女生</option>
+    </select>
+    <label for="bloodtype" style="margin:3px 0px 3px 40px;">血型：</label>
+    <select id="bloodtype" name="bloodtype">
+        <option value="A型">A型</option>
+        <option value="B型">B型</option>
+        <option value="AB型">AB型</option>
+        <option value="O型">O型</option>
+    </select>
+    <br><br>
+    <input type="submit" value="送出">
+    <input type="reset" value="重新輸入">
+</form> 
+</div>
+</div>
+</body>
+</html>
