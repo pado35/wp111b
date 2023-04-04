@@ -1,7 +1,17 @@
 body {
-    background-color: #D8BBB4;
-    text-align: center;
+    background-color: #FFF8F0;
 }
+
+h1 {
+    text-align: center;
+    color: #92DCE5;
+}
+
+h2 ,p{
+    margin: auto;
+}
+
+
 
 input {
     width: 30%;
