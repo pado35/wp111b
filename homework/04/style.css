@@ -8,9 +8,13 @@ h1 {
 }
 
 h2 ,p{
-    margin: auto;
+    margin: 10%;
 }
 
+pre {
+    border: dotted;
+    border-radius: 5px;
+}
 
 
 input {
