@@ -12,8 +12,10 @@ h2 ,p{
 }
 
 pre {
-    border: dotted;
-    border-radius: 5px;
+    background-color: #C4C0BC;
+    border:1px dotted;
+    border-radius: 20px;
+    padding: 20px;
 }
 
 
