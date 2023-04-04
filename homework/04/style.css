@@ -1,29 +1,35 @@
 body {
-    background-color: #FFF8F0;
+    background-color: #FFF9F1;
+    margin: 40px 10%;
 }
 
 h1 {
     text-align: center;
     color: #92DCE5;
+    
 }
 
 h2 ,p{
-    margin: 10%;
+    
 }
 
 pre {
-    background-color: #C4C0BC;
+    background-color: #E2DCD6;
     border:1px dotted;
     border-radius: 20px;
     padding: 20px;
 }
 
+form {
+    text-align: center;
+}
 
 input {
+    
     width: 30%;
     border:2px soild;
     border-radius: 5px;
     border-color:#92DCE5;
     padding: 10px;
-    margin: 15px;
+    margin: 10px 32%;
 }
