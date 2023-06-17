@@ -1,0 +1,25 @@
+body {
+    margin:0px;
+}
+#nav {
+    background-color:#000000;
+    width:40px;
+    height:100%;
+    transition: width 1s;
+}
+#nav:hover {
+    width:200px;
+}
+#navMain {
+    padding-left:40px;
+    padding-top:40px;
+    font-size: 30px;
+}
+#nav a {
+    color:#ffffff;
+    white-space: nowrap;
+    text-decoration: none;
+}
+#nav a:hover {
+    color:orange;
+}
