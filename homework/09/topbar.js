@@ -14,8 +14,7 @@ let main = document.querySelector(".bigmargin")
 
 let pages = {
     "#home":`
-    <h1>首頁</h1>
-    <p>本網頁可以按功能表去切換畫面</p>`,
+    <h1>首頁です</h1>`,
 
     "#login":`
     <h1>登入</h1>
